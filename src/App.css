@@ -1,0 +1,37 @@
+span{
+  font-size: 40px;
+}
+.disable{
+  opacity:0.5
+}
+
+.section{
+ 
+  display:flex;
+  flex-wrap: wrap;
+  gap:2rem;
+  padding:70px;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #0089ffed;
+  
+}
+
+.free:hover,.plus:hover,.pro:hover{
+  transition: 200ms;
+  transform: scale(1.02);
+}
+.button{
+  text-transform: uppercase;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+.free,.plus,.pro{
+  width:300px;
+}
+.name{
+  text-align: center;
+}

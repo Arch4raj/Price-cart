@@ -1,0 +1,50 @@
+/* .App {
+  text-align: center;
+  
+}
+.pic{
+  height:300px;
+  width:300px;
+  border-radius: 50%;
+} */
+
+.movie-image{
+  height:300px;
+  width:300px;
+  object-fit: cover;
+}
+.movie-container{
+  width:300px;
+}
+.movie-specs{
+  display:flex;
+  justify-content: space-between;
+}
+.movie-summary{
+  margin-top: 0px;
+}
+.movie{
+  display:flex;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+.input-movie{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+.box{
+  height:100px;
+  /* width:100px; */
+  border:1px solid black;
+  font-size: 70px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+ }
+ .board{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+ }
